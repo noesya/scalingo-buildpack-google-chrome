@@ -6,7 +6,7 @@ jobs:
   test:
     strategy:
       matrix:
-        stack: [scalingo-22, scalingo-24]
+        stack: [scalingo-24, scalingo-26]
         channel: [stable, beta, unstable]
     runs-on: ubuntu-latest
 
