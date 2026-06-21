@@ -1,4 +1,4 @@
-ARG BASE_IMAGE
+ARG BASE_IMAGE=scalingo/scalingo-26:latest
 FROM $BASE_IMAGE
 USER root
 
